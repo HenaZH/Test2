@@ -14,7 +14,7 @@ public class BaseWebDriver {
 
     public static WebDriver openBrawser() {
         WebDriver driverp;
-        //определение пути до драйвера и его настройка 555
+        //определение пути до драйвера и его настройка
         System.setProperty("webdriver.chrome.driver", "c:/Program Files/Java/chromedriver.exe");
         //WebDriverManager.chromedriver().setup();  // скачивает последнюю версию
         driverp = new ChromeDriver();
