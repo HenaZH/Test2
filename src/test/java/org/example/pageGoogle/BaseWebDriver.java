@@ -16,7 +16,7 @@ public class BaseWebDriver {
         WebDriver driverp;
         //определение пути до драйвера и его настройка
         System.setProperty("webdriver.chrome.driver", "c:/Program Files/Java/chromedriver.exe");
-        //WebDriverManager.chromedriver().setup();  // скачивает последнюю версию7777777
+        //WebDriverManager.chromedriver().setup();  // скачивает последнюю версию
         driverp = new ChromeDriver();
         driverp.manage().window().maximize();
         driverp.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);

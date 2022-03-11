@@ -11,16 +11,16 @@ public class GoogleTestSearch {
 
     @BeforeClass(alwaysRun = true)
     public void Begin() {
-        driver= BaseWebDriver.openBrawser();
+        driver = BaseWebDriver.openBrawser();
         stepTestt = new StepTest(driver);
     }
 
-    @Test(priority=1)
+    @Test(priority = 1)
     public void testUntitledTestCase1() {
         stepTestt.TestInputTextSearchMama();
     }
 
-    @Test(priority=0)
+    @Test(priority = 0)
     public void testUntitledTestCase2() {
         stepTestt.TestInputTextSearchPapa();
     }
