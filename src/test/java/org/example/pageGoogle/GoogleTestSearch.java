@@ -18,11 +18,13 @@ public class GoogleTestSearch {
     @Test(priority = 1)
     public void testUntitledTestCase1() {
         stepTestt.TestInputTextSearchMama();
+        stepTestt.countHowManyWordsMama();
     }
 
     @Test(priority = 0)
     public void testUntitledTestCase2() {
         stepTestt.TestInputTextSearchPapa();
+        stepTestt.countHowManyWordsPapa();
     }
 
     @AfterClass(alwaysRun = true)
