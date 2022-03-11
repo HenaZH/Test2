@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64a2c9c5-d316-43a2-bc3a-365bcb8d88b2" name="Default Changelist" comment="" />
+    <list default="true" id="64a2c9c5-d316-43a2-bc3a-365bcb8d88b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pageGoogle/BaseWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pageGoogle/BaseWebDriver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/TestG" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -198,7 +200,7 @@
       <workItem from="1646803635856" duration="3840000" />
       <workItem from="1646828910419" duration="7338000" />
       <workItem from="1646889242244" duration="14020000" />
-      <workItem from="1646975860967" duration="6269000" />
+      <workItem from="1646975860967" duration="6274000" />
     </task>
     <servers />
   </component>
